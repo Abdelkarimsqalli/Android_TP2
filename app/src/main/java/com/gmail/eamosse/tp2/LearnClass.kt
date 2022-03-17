@@ -1,7 +1,13 @@
 package com.gmail.eJohn.tp2
 
 //TODO Créer une classe Etudiant (name, code, sexe (M, F), adresse, age)
-
+data class Etudiant(
+    val name: String,
+    val code: String,
+    val sexe: String,
+    val adresse: String,
+    val age: Int
+)
 
 fun listOf10(): List<Etudiant> {
     TODO("Créer une liste de 10 étudiants")
