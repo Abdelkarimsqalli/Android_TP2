@@ -2,39 +2,39 @@ package com.gmail.eamosse.tp2
 
 interface StudentManager {
     /**
-     * A list of students
+     * A list of Etudiants
      */
-    fun listOf10(): List<Student>
+    fun listOf10(): List<Etudiant>
 
     /**
      * Sort list
      */
-    fun sortAgeAscDesc(type: String): List<Student>
+    fun sortAgeAscDesc(type: String): List<Etudiant>
 
     /**
-     * Group students by sex
+     * Group Etudiants by sex
      */
-    fun groupBySex(): Map<String, List<Student>>
+    fun groupBySex(): Map<String, List<Etudiant>>
 
     /**
-     * Filter student by sex
+     * Filter Etudiant by sex
      */
-    fun boysOrGirls(sexe: String): List<Student>
+    fun boysOrGirls(sexe: String): List<Etudiant>
 
     /**
-     * Get list of student names
+     * Get list of Etudiant names
      */
     fun onlyNames(): List<String>
 
     /**
-     * Delete student by sex
+     * Delete Etudiant by sex
      */
     fun deleteBySex(sex: String)
 
     /**
      * Invert the list
      */
-    fun reverse(): List<Student>
+    fun reverse(): List<Etudiant>
 
     /**
      * Clear the list
